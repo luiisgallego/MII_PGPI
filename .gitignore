@@ -1,0 +1,6 @@
+#Archivos basura de Latex
+
+*.aux
+*.log
+*.out
+*.gz
