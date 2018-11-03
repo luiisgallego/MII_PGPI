@@ -1,0 +1,9 @@
+% Encoding: UTF-8
+
+@Misc{misc:proyecto,
+  author = {Plataforma de Contratación del Sector Público},
+  title  = {Enlace al pliego de condiciones del proyecto encontrado},
+  note   = {\url{https://contrataciondelestado.es/wps/poc?uri=deeplink%3Adetalle_licitacion&idEvl=3IZza6kpOIt7h85%2Fpmmsfw%3D%3D}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
