@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{article:neumonia}
+Pablo~G. Bejerano.
+\newblock Este algoritmo diagnostica neumonía con la precisión de un médico.
+\newblock {\em Blogthinkbig.com}, 27 de Noviembre de 2017.
+\newblock
+  \url{https://blogthinkbig.com/este-algoritmo-diagnostica-neumonia-con-la-precision-de-un-medico}.
+
+\bibitem{misc:face2gene}
+Face2Gene.
+\newblock Página web de la aplicación face2gene, 2018.
+\newblock \url{https://www.face2gene.com/}.
+
+\bibitem{article:resonancia}
+Dra. González.
+\newblock ¿qué se puede detectar con una resonancia magnética?
+\newblock {\em Página Hopital San Ángel Inn}, 29 de Marzo de 2017.
+\newblock
+  \url{https://blog.hospitalsanangelinn.mx/resonancia-magnetica-diagnostico}.
+
+\bibitem{misc:imagen}
+HealthyChildren.org.
+\newblock Ejemplo imagen resonancia ilustrando una fractura.
+\newblock
+  \url{https://www.google.es/search?q=resonancia+magnetica+con+fractura&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj_ydaisK7eAhVDgRoKHeGoDsUQ_AUIDigB&biw=1536&bih=754#imgrc=5wcLStUv22LjAM:}.
+
+\end{thebibliography}
