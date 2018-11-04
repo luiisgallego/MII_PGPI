@@ -1,19 +1,39 @@
-\documentclass[a4paper,12pt,oneside]{article}
+\input{preambuloSimple.tex}
 
-\usepackage[spanish, es-tabla]{babel}
-\usepackage[hidelinks]{hyperref}
+%----------------------------------------------------------------------------------------
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge Manual de Coordinación \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alejandro Campoy Nieves \\ Luis Gallego Quero} % Nombre y apellidos y correo
+\date{\normalsize\today} % Incluye la fecha actual
 \usepackage{graphicx}
-\usepackage{amssymb, amsmath, amsbsy}
-\usepackage{mathptmx}	
-\usepackage{float}
+\usepackage{hyperref} % Para añadir los hiperenlaces.
 
-\title{Manual de Coordinación}
-\author{Luis Gallego Quero \\ Alejandro Campoy Nieves}
 
-\date{\today}
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-\maketitle			
+\maketitle % Muestra el Título
+
+\newpage %inserta un salto de página
+
+\tableofcontents % para generar el índice de contenidos
+
+%\listoffigures
+
+%\listoftables
+
+\newpage		
  
 \section{Ciclo de vida}
 
@@ -76,34 +96,8 @@ Los test para realizar las correspondientes pruebas de desarrollo serán elabora
 
 También se utilizará como punto de apoyo, las verificaciones y visto bueno por parte del cliente, que será considerado como un punto más del proceso de prueba y testeo.
 
-
-
-%%%%%% RECURSOS %%%%%%
-
-
-
-
-% \textbf{negrita}
-%  \textit{cursiva}
-
-% Insertar imagen
-%\begin{figure}[h]
-	%\centering
-		%\includegraphics[scale=0.1]{./ruta}
-	%\caption{Texto parte inferior}
-	%\label{etiqueta para referencia}
-%\end{figure}
-
-% 		LISTADO DE ITEMS
-%\begin{itemize}
-	%\item 
-%\end{itemize}
-
-% 		BIBLIOGRAFÍA
-%\begin{thebibliography}{X}
-	%\bibitem{nombreItem} \url{enlace} 
-%\end{thebibliography}
-
+%\bibliographystyle{plain}
+%\bibliography{biblio}
 
 \end{document}       
 %---------------------------------------------------
