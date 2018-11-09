@@ -6,6 +6,6 @@
 \contentsline {section}{\numberline {5}Herramientas para comunicaciones en el equipo de trabajo}{3}{section.5}
 \contentsline {section}{\numberline {6}Relaciones con el cliente}{4}{section.6}
 \contentsline {section}{\numberline {7}Est\IeC {\'a}ndares de documentaci\IeC {\'o}n}{4}{section.7}
-\contentsline {section}{\numberline {8}est\IeC {\'a}ndares de c\IeC {\'o}digo}{4}{section.8}
+\contentsline {section}{\numberline {8}Est\IeC {\'a}ndares de c\IeC {\'o}digo}{4}{section.8}
 \contentsline {section}{\numberline {9}Control de versiones}{4}{section.9}
 \contentsline {section}{\numberline {10}Gesti\IeC {\'o}n de calidad}{4}{section.10}
