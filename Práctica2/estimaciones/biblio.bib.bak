@@ -1,0 +1,32 @@
+% Encoding: UTF-8
+
+@Article{article:neumonia,
+  author  = {Pablo G. Bejerano},
+  title   = {Este algoritmo diagnostica neumonía con la precisión de un médico},
+  journal = {Blogthinkbig.com},
+  year    = {27 de Noviembre de 2017},
+  note    = {\url{https://blogthinkbig.com/este-algoritmo-diagnostica-neumonia-con-la-precision-de-un-medico}},
+}
+
+@Misc{misc:face2gene,
+  author = {Face2Gene},
+  title  = {Página web de la aplicación Face2Gene},
+  year   = {2018},
+  note   = {\url{https://www.face2gene.com/}},
+}
+
+@Article{article:resonancia,
+  author  = {Dra. González},
+  title   = {¿Qué se puede detectar con una resonancia magnética?},
+  journal = {Página Hopital San Ángel Inn},
+  year    = {29 de Marzo de 2017},
+  note    = {\url{https://blog.hospitalsanangelinn.mx/resonancia-magnetica-diagnostico}},
+}
+
+@Misc{misc:imagen,
+  author = {HealthyChildren.org},
+  title  = {Ejemplo imagen resonancia ilustrando una fractura.},
+  note   = {\url{https://www.google.es/search?q=resonancia+magnetica+con+fractura&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj_ydaisK7eAhVDgRoKHeGoDsUQ_AUIDigB&biw=1536&bih=754#imgrc=5wcLStUv22LjAM:}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

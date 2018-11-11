@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Estimaci\IeC {\'o}n por descomposici\IeC {\'o}n funcional}{3}{section.1}
+\contentsline {section}{\numberline {2}Estimaci\IeC {\'o}n por descomposici\IeC {\'o}n de actividades}{3}{section.2}
+\contentsline {section}{\numberline {3}Estimaci\IeC {\'o}n del tama\IeC {\~n}o del proyecto (KLOC)}{4}{section.3}
+\contentsline {section}{\numberline {4}Estimaci\IeC {\'o}n del tama\IeC {\~n}o del proyecto (FP)}{4}{section.4}

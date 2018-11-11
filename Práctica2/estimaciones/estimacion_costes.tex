@@ -1,0 +1,145 @@
+\input{preambuloSimple.tex}
+
+%----------------------------------------------------------------------------------------
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge Estimación de costes \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alejandro Campoy Nieves \\ Luis Gallego Quero} % Nombre y apellidos y correo
+\date{\normalsize\today} % Incluye la fecha actual
+\usepackage{graphicx}
+\usepackage{hyperref} % Para añadir los hiperenlaces.
+\usepackage{eurosym} % Para incluir el símbolo del euro
+
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle % Muestra el Título
+
+\newpage %inserta un salto de página
+
+\tableofcontents % para generar el índice de contenidos
+
+%\listoffigures
+
+\listoftables	
+
+\newpage		
+ 
+\section{Estimación por descomposición funcional}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|}
+			\hline 
+			Módulo & Esfuerzo estimado \\
+			\hline \hline
+			Documentación inicial & 1pm \\ \hline
+			Base de datos & 2pm \\ \hline
+			Deep Learning & 2pm \\ \hline
+			Despliegue local & 2pm \\ \hline
+			Primer refinamiento & 3pm \\ \hline
+			Integración hospital & 2pm \\ \hline
+			Segundo refinamiento & 3pm \\ \hline
+			\textbf{Total} & \textbf{15pm} \\ \hline
+		\end{tabular}
+		\caption{Estimación por descomposición funcional}
+		\label{tabla:funcional}
+	\end{center}
+\end{table}
+
+Costes laborales: 1700 \euro/pm\\
+Estimación: 1700 \euro/pm * 2p * 15pm = \textbf{51000 \euro}
+
+\section{Estimación por descomposición de actividades}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c||c|}
+			\hline 
+			Módulo & Plan & Análisis & Diseño & Código & Test & \textbf{Total} \\
+			\hline \hline
+			Documentación inicial & & 0.6 & 0.2 & 0 & 0 & \textbf{0.8}  \\ \hline
+			Base de datos & & 0.5 & 0.1 & 0.1 & 0.1 & \textbf{0.8}  \\ \hline
+			Deep Learning & & 1 & 0.3 & 1.2 & 0.8 & \textbf{3.3}  \\ \hline
+			Despliegue local & & 0.8 & 0.2 & 0.8 & 0.5 & \textbf{2.3}  \\ \hline
+			Primer refinamiento & & 0.6 & 0.3 & 1.4 & 0.5 & \textbf{2.8}  \\ \hline
+			Integración hospital & & 1 & 0.2 & 0.5 & 1.5 & \textbf{3.2}  \\ \hline
+			Segundo refinamiento & & 0.8 & 0.2 & 0.6 & 1.5 & \textbf{3.1}  \\ \hline
+			\textbf{Total} & \textbf{0.25} & \textbf{5.3} & \textbf{1.5} & \textbf{4.6} & \textbf{4.9} & \textbf{16.3}  \\ \hline
+			\textbf{    \%} & \textbf{1.53\%} & \textbf{32.51\%} & \textbf{9.2\%} & \textbf{28.22\%} & \textbf{30.06\%} & \textbf{}  \\ \hline
+		\end{tabular}
+		\caption{Estimación por descomposición de actividades}
+		\label{tabla:actividades}
+	\end{center}
+\end{table}
+
+Costes laborales: 1700 \euro/pm \\
+Estimación: 1700 \euro/pm * 2 * 16.3 = \textbf{55420 \euro}
+
+\section{Estimación del tamaño del proyecto (KLOC)}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|}
+			\hline 
+			Módulo & Tamaño estimado \\
+			\hline \hline
+			Documentación inicial & 1 KLOC \\ \hline
+			Base de datos & 2 KLOC \\ \hline
+			Deep Learning & 3 KLOC \\ \hline
+			Despliegue local & 4 KLOC \\ \hline
+			Primer refinamiento & 3 KLOC \\ \hline
+			Integración hospital & 0.8 KLOC \\ \hline
+			Segundo refinamiento & 3 KLOC \\ \hline
+			\textbf{Total} & \textbf{16.8 KLOC} \\ \hline
+		\end{tabular}
+		\caption{Estimación del tamaño del proyecto (KLOC)}
+		\label{tabla:tamaño}
+	\end{center}
+\end{table}
+
+KLOC : Miles de líneas de código \\
+Estimación : 1700 \euro/persona * 2 personas * 16.8 KLOC(1\euro/LOC) = \textbf{57120 \euro}
+
+\section{Estimación del tamaño del proyecto (FP)}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|c|c|}
+			\hline 
+			Módulo & o & m & p & est. & peso & \textbf{fp} \\
+			\hline \hline
+			Documentación inicial & 5 & 10 & 15 & 10 & 3 & \textbf{30}  \\ \hline
+			Base de datos & 10 & 17 & 18 & 15 & 4 & \textbf{60}  \\ \hline
+			Deep Learning & 15 & 17 & 22 & 18 & 4 & \textbf{72}  \\ \hline
+			Despliegue local & 14 & 16 & 18 & 16 & 2 & \textbf{32}  \\ \hline
+			Primer refinamiento & 16 & 21 & 26 & 21 & 4 & \textbf{84}  \\ \hline
+			Integración hospital & 12 & 14 & 16 & 14 & 2 & \textbf{28}  \\ \hline
+			Segundo refinamiento & 19 & 23 & 27 & 23 & 5 & \textbf{115}  \\ \hline
+			\textbf{Total} & & & & & & \textbf{421}  \\ \hline
+		\end{tabular}
+		\caption{Estimación del tamaño del proyecto (FP)}
+		\label{tabla:FP}
+	\end{center}
+\end{table}
+%\bibliographystyle{plain}
+%\bibliography{biblio}
+
+$FP_{estimado} = 1.17 * FP_{real} = 492.57$ \\
+Productividad: 20 FP/pm = 40 FP/m \\
+Costes laborales: 4000 \euro (\textasciitilde{}100\euro/FP) \\
+Estimación: 492.57*100 = \textbf{49257 \euro} 
+
+\end{document}       
+%---------------------------------------------------
