@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {3}Estimaci\IeC {\'o}n del tama\IeC {\~n}o del proyecto (KLOC)}{4}{section.3}
 \contentsline {section}{\numberline {4}Estimaci\IeC {\'o}n del tama\IeC {\~n}o del proyecto (FP)}{4}{section.4}
 \contentsline {section}{\numberline {5}Estimaci\IeC {\'o}n con herramientas software: Construx Estimate}{5}{section.5}
-\contentsline {section}{\numberline {6}Estimaci\IeC {\'o}n con modelos emp\IeC {\'\i }ricos}{5}{section.6}
-\contentsline {subsection}{\numberline {6.1}COCOMO II}{5}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Modelo de Putnam}{5}{subsection.6.2}
-\contentsline {section}{\numberline {7}Resumen}{5}{section.7}
+\contentsline {section}{\numberline {6}Estimaci\IeC {\'o}n con modelos emp\IeC {\'\i }ricos}{6}{section.6}
+\contentsline {subsection}{\numberline {6.1}COCOMO II}{6}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Modelo de Putnam}{7}{subsection.6.2}
+\contentsline {section}{\numberline {7}Resumen}{7}{section.7}
+\contentsline {section}{\numberline {8}Conclusi\IeC {\'o}n}{7}{section.8}
