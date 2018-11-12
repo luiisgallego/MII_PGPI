@@ -133,13 +133,66 @@ Estimación : 1700 \euro/persona * 2 personas * 16.8 KLOC(1\euro/LOC) = \textbf{
 		\label{tabla:FP}
 	\end{center}
 \end{table}
-%\bibliographystyle{plain}
-%\bibliography{biblio}
+
 
 $FP_{estimado} = 1.17 * FP_{real} = 492.57$ \\
 Productividad: 20 FP/pm = 40 FP/m \\
 Costes laborales: 4000 \euro (\textasciitilde{}100\euro/FP) \\
 Estimación: 492.57*100 = \textbf{49257 \euro} 
+
+\section{Estimación con herramientas software: Construx Estimate}
+
+%imagen
+
+En la estimación realizada en Construx obtenemos una estimación casi la mitad de inferior respecto a las estimaciones realizadas hasta ahora. Quizás, una de las razones principales, sea la poca parametrización que nos permite esta herramienta software y , por tanto, la proximidad real a la definición real de nuestro proyecto.
+
+\section{Estimación con modelos empíricos}
+
+\subsection{COCOMO II}
+
+%imagen
+
+\subsection{Modelo de Putnam}
+
+\begin{equation*}
+E = B * \left( \frac{LOC}{P} \right)^3 * \frac{1}{t^4} 
+\end{equation*}
+
+\begin{equation*}
+E = 0.2 * \left( \frac{16800}{12000} \right)^3 * \frac{1}{0.3333^4} = 44.47 
+\end{equation*}
+
+Obtenemos E = 44.47 personas/año\\
+
+Estimación: 1700 \euro * 4 meses * (44.47 personas-año/12 meses) = \textbf{25.199,6666 \euro}
+
+
+\section{Resumen}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|}
+			\hline 
+			Método Estimación & Resultado \\
+			\hline \hline
+			Descomposición funcional & 51000 \euro \\ \hline
+			Descomposición actividades & 55420 \euro \\ \hline
+			Tamaño proyecto: KLOC & 57120 \euro \\ \hline
+			Tamaño proyecto: FP & 49257 \euro \\ \hline
+			Construx Estimate & 26988,4 \euro \\ \hline
+			COCOMO2 & 76741 \$ \\ \hline
+			Modelo Putnam & 25199,66 \euro \\ \hline
+		\end{tabular}
+		\caption{Resumen de estimaciones}
+		\label{tabla:resumen}
+	\end{center}
+\end{table}
+
+
+
+
+%\bibliographystyle{plain}
+%\bibliography{biblio}
 
 \end{document}       
 %---------------------------------------------------
