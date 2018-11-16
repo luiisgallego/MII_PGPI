@@ -1,12 +1,27 @@
-\documentclass[a4paper,12pt,oneside]{article}
+\input{preambuloSimple.tex}
+
+%----------------------------------------------------------------------------------------
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge Presupuesto I+D \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alejandro Campoy Nieves \\ Luis Gallego Quero} % Nombre y apellidos y correo
+\date{\normalsize\today} % Incluye la fecha actual
 
 \usepackage[spanish, es-tabla]{babel}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref} % Para añadir los hiperenlaces.
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
 }
 \usepackage{graphicx}
 \usepackage{amssymb, amsmath, amsbsy}
@@ -20,13 +35,24 @@
 \usepackage{colortbl}
 
 
-
-\title{Presupuesto I+D}
-\author{Luis Gallego Quero}
-\date{\today}
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-\maketitle			
+	\maketitle % Muestra el Título
+	
+	\newpage %inserta un salto de página
+	
+	\tableofcontents % para generar el índice de contenidos
+	
+	%\listoffigures
+	
+	\listoftables	
+	
+	\newpage			
+
+\section{Presupuesto}
  
 \begin{table}[H]
 	%\begin{center}
@@ -71,35 +97,35 @@
 		\cellcolor{red}TOTAL INCENTIVO SOLICITADO & \textbf{20446,06} \euro \\ \bottomrule
 		\end{tabular}
 	%\end{center}
-	\caption{}
-	\label{nombre_etiqueta}
+	\caption{Presupuesto para proyectos I+D}
+	\label{tab:tabla1}
 \end{table}
 
-\section*{Justificación y consideraciones sobre el presupuesto}
+\section{Justificación y consideraciones sobre el presupuesto}
 
-\subsection*{Gastos de personal}
+\subsection{Gastos de personal}
 
 El equipo cuenta con dos ingenieros informáticos, uno especializado en desarrollo de software y otro en inteligencia artificial, lo que será mas que suficiente para la correcta culminación del proyecto. Este durará 4 meses por lo que la estimación de coste del personal, junto con la deducción del IRPF, es el siguiente: \\
 
 2 Ingenieros Informáticos * 4 meses * (1.700\euro /mes *1.13) = \textbf{15368\euro} \\
 
-La deducción aproximada del IRPF se ha obtenido del siguiente \href{https://infoautonomos.eleconomista.es/contratar-trabajadores/calcular-retenciones-IRPF-nominas/}{enlace}, y puesto que el sueldo anual sobrepasaría los 20.000\euro se ha tomado el 13\% de IRPF.
+La deducción aproximada del IRPF se ha obtenido del siguiente \href{https://infoautonomos.eleconomista.es/contratar-trabajadores/calcular-retenciones-IRPF-nominas/}{enlace} \cite{misc:IRPF}, y puesto que el sueldo anual sobrepasaría los 20.000\euro se ha tomado el 13\% de IRPF.
 
-\subsection*{Gastos de Ejecución}
+\subsection{Gastos de Ejecución}
 
-\subsubsection*{Material inventariable}
+\subsubsection{Material inventariable}
 
-Cada uno de los trabajadores utilizará su portátil propio para la realización del trabajo. Estos fueron adquiridos tan solo hace dos meses para el nuevo curso, por tanto según el siguiente \href{https://cuentica.com/asesoria/tabla-anos-y-porcentajes-de-amortizacion-sociedades-a-partir-de-2015/}{enlace} su periodo de amortización máximo es de 10 años con una amortización del 20\% al año ya que se enmarcan en la categoría de ``equipos electrónicos". \\
+Cada uno de los trabajadores utilizará su portátil propio para la realización del trabajo. Estos fueron adquiridos tan solo hace dos meses para el nuevo curso, por tanto según el siguiente \href{https://cuentica.com/asesoria/tabla-anos-y-porcentajes-de-amortizacion-sociedades-a-partir-de-2015/}{enlace} \cite{misc:amortizacion} su periodo de amortización máximo es de 10 años con una amortización del 20\% al año ya que se enmarcan en la categoría de ``equipos electrónicos". \\
 
 El coste de uno de los portátiles fue de  2800\euro, por tanto si han pasado dos meses, esto equivale a una amortización del 0.033\% lo que deja su coste actual en 2706,67\euro. Finalmente, si el proyecto tiene una duración de cuatro meses, el coste del equipo informático es 186,66\euro.
 
 En el segundo caso, el coste del portátil fue de 900\euro, si han pasado también dos meses tenemos la amortización anterior, lo cual deja su coste en 870,3\euro. Finalmente, con los cuatro meses de duración del proyecto, el coste del equipo es de 59,4\euro.
 
-\subsubsection*{Material fungible}
+\subsubsection{Material fungible}
 
 Dentro de este apartado se han representado diferentes materiales imprescindibles par el trabajo de un proyecto, siendo su coste estándar y medio respecto a lo que podemos encontrar en el mercado.
 
-\subsection*{Costes de investigación}
+\subsection{Costes de investigación}
 
 Dentro del mundo del Deep Learning existe una cantidad considerable de librerías con un gran potencial para la labor que nos ocupa. Elegir una opción viable y óptima tuvo un coste de 500\euro. Esto posteriormente ha tenido un repercusión positiva en el coste de adquirir su licencia, ya que se hará uso de Keras, la cual es gratuita.
 
@@ -114,8 +140,8 @@ Los clientes, como ya se han mencionado en este proyecto, se encuentra en el hos
 Se desea entrenar al personal en diversos seminarios con el objetivo de adquirir una mejor experiencia con el producto que se quiere desarrollar. Los seminarios son:
 
 \begin{itemize}
-	\item Seminarios de \href{https://kschool.com/cursos/programa-deep-learning/}{Deep Learning}.
-	\item Seminarios sobre \href{https://www.emagister.com/cursos-resonancia-magnetica-kwes-11454.htm}{resonancias}.
+	\item Seminarios de \href{https://kschool.com/cursos/programa-deep-learning/}{Deep Learning} \cite{misc:learning}.
+	\item Seminarios sobre \href{https://www.emagister.com/cursos-resonancia-magnetica-kwes-11454.htm}{resonancias} \cite{misc:resonancias}.
 \end{itemize}
 
 Es fundamental adquirir algo de conocimiento experto sobre las resonancias para saber que datos son importantes y como den ser analizados. El conocimiento del Deep Learning para poder aplicar este conocimiento en entrenar un modelo es importante en una magnitud similar. Por ello estimamos que estos seminarios nos van a suponer un coste de 2500 \euro teniendo en cuenta algunos seminarios que se ofertan en las referencias.
@@ -124,6 +150,8 @@ Es fundamental adquirir algo de conocimiento experto sobre las resonancias para 
 
 Hemos realizado una estimación de gastos que no hemos previsto por algún motivo, dejando un margen de error de 300 \euro por si ocurre algún tipo de emergencia o imprevisto.
 
-
+\newpage
+\bibliographystyle{plain}
+\bibliography{biblio}
 \end{document}       
 %---------------------------------------------------
