@@ -1,12 +1,12 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Presupuesto}{3}{section.1}
-\contentsline {section}{\numberline {2}Justificaci\IeC {\'o}n y consideraciones sobre el presupuesto}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Gastos de personal}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Gastos de Ejecuci\IeC {\'o}n}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Material inventariable}{4}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Material fungible}{4}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Costes de investigaci\IeC {\'o}n}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Gastos complementarios}{5}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Desplazamientos y seminarios}{5}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Seminarios}{5}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Varios}{5}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {1}Presupuesto}{4}{section.1}
+\contentsline {section}{\numberline {2}Justificaci\IeC {\'o}n y consideraciones sobre el presupuesto}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Gastos de personal}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Gastos de Ejecuci\IeC {\'o}n}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Material inventariable}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Material fungible}{5}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Costes de investigaci\IeC {\'o}n}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Gastos complementarios}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Desplazamientos y seminarios}{6}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Seminarios}{6}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Varios}{6}{subsubsection.2.4.3}

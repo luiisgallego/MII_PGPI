@@ -1,72 +1,91 @@
-\documentclass[a4paper,12pt,oneside]{article}
+\input{preambuloSimple.tex}
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge Presupuesto Alternativo \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alejandro Campoy Nieves \\ Luis Gallego Quero} % Nombre y apellidos y correo
+\date{\normalsize\today} % Incluye la fecha actual
 
 \usepackage[spanish, es-tabla]{babel}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref} % Para añadir los hiperenlaces.
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
 }
 \usepackage{graphicx}
 \usepackage{amssymb, amsmath, amsbsy}
 \usepackage{mathptmx}	
 \usepackage{float}
 \usepackage{booktabs}					%paquete para realización de tablas profesionales
+\usepackage{eurosym}
+%\usepackage[table]{xcolor}
+%\definecolor{lightgray}{gray}{0.9}
+\usepackage{xcolor}
+\usepackage{colortbl}
 
-\title{•}
-\author{Luis Gallego Quero}
-\date{\today}
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-\maketitle			
+	\maketitle % Muestra el Título
+	
+	\newpage %inserta un salto de página
+	
+	\tableofcontents % para generar el índice de contenidos
+	
+	%\listoffigures
+	
+	\listoftables	
+	
+	\newpage	
  
-\section{•}
+\section{Descripción de la situación}
+
+\begin{itemize}
+	\item Inversión inicial realizada a través de capital de la empresa para cubrir todos los gastos.
+	\item Se reciben dos ingresos, uno a mitad y otro al final del tiempo estimado de desarrollo (4 meses).	
+\end{itemize}
+
+En función de los gastos que se ven a tener, asumimos un capital inicial de 21000 \euro. La cantidad de dinero que debemos de percibir son los gastos que vamos a asumir más el sueldo del personal (considerado un gasto más). Esto hace un total de 20446,06 \euro. 
+
+\section{flujo de caja}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|c|}
+			\hline
+			Meses & 0 & 1 & 2 & 3 & 4 \\
+			\hline \hline
+			Ingresos & & & 10000 & & 10000
+			Personal (sueldos) &  & -3400 & -3400 & -3400 & -3400 \\ \hline \hline
+			Equipo personal fijo & -328,06 &  &  &  &  \\ \hline
+			Material fungible & -750 &  &  &  &  \\ \hline
+			Desplazamientos y dietas & & -200 & -200 & -200 & -200 \\ \hline
+			Seminario Deep Learning & -2000 &  &  &  &  \\ \hline
+			Seminario sobre resonancias & -500 &  &  &  &  \\ \hline
+			Varios &  & -100  & -100 & -100 &  \\ \hline
+		\end{tabular}
+		\caption{Tabla muy sencilla.}
+		\label{tabla:sencilla}
+	\end{center}
+\end{table}
 
 
 
-
-%%%%%% RECURSOS %%%%%%
-
-% ENÑACE
- %\href{link}{texto} 
-
-% TABLA
-%\begin{table}[H]
-	%\begin{center}
-		%\begin{tabular}{|c|c|} \toprule
-		%1 & 2 \\ \midrule
-		%2 & 4 \\
-		%5 & 6\\ \bottomrule
-		%\end{tabular}
-	%\end{center}
-%\caption{}
-%\label{nombre_etiqueta}
-%\end{table}
-
-% \textbf{negrita}
-%  \textit{cursiva}
-
-% Insertar imagen
-%\begin{figure}[h]
-	%\centering
-		%\includegraphics[scale=0.1]{./ruta}
-	%\caption{Texto parte inferior}
-	%\label{etiqueta para referencia}
-%\end{figure}
-
-% 		LISTADO DE ITEMS
-%\begin{itemize}
-	%\item 
-%\end{itemize}
-
-% 		BIBLIOGRAFÍA
-%\begin{thebibliography}{X}
-	%\bibitem{nombreItem} \url{enlace} 
-%\end{thebibliography}
-
-%%%%%% FIN RECURSOS %%%%%%
-
+\newpage
+\bibliographystyle{plain}
+\bibliography{biblio}
 
 \end{document}       
 %---------------------------------------------------
