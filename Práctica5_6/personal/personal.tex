@@ -27,10 +27,19 @@
 \usepackage{float}
 \usepackage{booktabs}					%paquete para realización de tablas profesionales
 \usepackage{eurosym}
-%\usepackage[table]{xcolor}
-%\definecolor{lightgray}{gray}{0.9}
-\usepackage{xcolor}
+
+\usepackage[table]{xcolor}
+\usepackage{color}
 \usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+%---- Paquete para aliniación de texto verticalmente dentro de tablas
+\usepackage{array}
+%---- Paquetes para los pies de las tablas
+\usepackage{caption}
+\usepackage{subcaption}
 
 
 %----------------------------------------------------------------------------------------
@@ -91,7 +100,196 @@ Se oferta:
 
 \section{Preselección de Candidatos}
 
+Para realizar una buena preselección de candidatos, se han clasificado los requisitos con valores dentro del intervalo 0 y 5 ambos incluidos. De tal manera que definimos el grado de relevancia que supone para nosotros cumplir estos factores. Posteriormente, todo candidato que supere el 3 sobre 5 de media será llamado para una entrevista personal.
 
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|l||c|}
+			\hline 
+			Criterio & Valoración \\
+			\hline \hline
+			Python & 3 \\ \hline
+			Programación orientada a objetos & 2 \\ \hline
+			Conocimiento en el uso de APIs & 2 \\ \hline
+			Desarrollo de interfaces & 1 \\ \hline
+			Git y GitHub & 2 \\ \hline
+			Metodologías Ágiles de desarrollo & 3 \\ \hline
+			Tecnologías de la información & 2 \\ \hline
+			Experiencia en Deep Learning & 5 \\ \hline
+			Experiencia en análisis de requisitos funcionales y no funcionales & 3 \\ \hline
+			Experiencia con herramientas de trabajo colaborativo & 2 \\ \hline
+			Disponibilidad inmediata & 4 \\ \hline
+			Inglés nivel B1 & 4 \\ \hline
+		\end{tabular}
+		\caption{Relevancia de requisitos para preselección de candidatos.}
+		\label{tabla:preseleccion}
+	\end{center}
+\end{table}
+
+\section{Entrevistas con los candidatos}
+
+En primer lugar se realizará una entrevista previa al candidato. De esta forma se obtiene la posibilidad, no solo de saber su experiencia básica, sino de observar su forma de ser y la forma de reaccionar que tiene. \\
+
+La idea fundamental es el desarrollo de una ficha de tal forma que pueda ser rellenada por la persona que entreviste a esa persona, para poder recopilar esta información de una forma estandarizada y organizada.
+
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{4cm}|p{10cm}|}
+			\hline 
+			\multicolumn{2}{|c|}{\textbf{Ficha entrevista}} \\
+			\hline
+			Experiencia laboral & \parbox[l][0.3\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Sin experiencia.
+					\item Inferior a 2 años.
+					\item Entre 2 y 4 años.
+					\item Superior a 4 años.
+			\end{itemize} } \\ \hline
+			Estudios realizados & \parbox[l][0.4\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Ingeniería informática.
+					\item Otra carrera relacionada.
+					\item Grado superior.
+					\item Grado medio.
+					\item Otros estudios.
+			\end{itemize} } \\ \hline
+			Referencia personal & \parbox[l][0.3\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Trabajos individuales.
+					\item Trabajos en equipo.
+					\item Aportaciones software libre.
+					\item Etapa en el extranjero.
+			\end{itemize} } \\ \hline
+		Capacidades & \parbox[l][0.4\textwidth][c]{8cm}{
+			\begin{itemize}
+				\item Desarrollo de algoritmos de Deep Learning.
+				\item Conocimiento en el uso de APIs.
+				\item Desarrollo de interfaces.
+				\item Tecnologías de la información.
+				\item Idiomas.
+				\item Otros.
+		\end{itemize} } \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+\newpage
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{4cm}|p{10cm}|}
+			\hline 
+				Motivación & \parbox[l][0.6\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item ¿Por qué busca este trabajo?
+					\begin{itemize}
+						\item Necesidad de trabajo.
+						\item Necesidad de experiencia.
+						\item Formación en el área.
+						\item Interés personal.
+						\item Aporte a la sanidad.
+						\item Otras.
+					\end{itemize}
+					\item ¿Perspectivas de futuro?
+					\begin{itemize}
+						\item Mejorar su vida laboral.
+						\item Nuevos proyectos.
+						\item Mejora de rango en la empresa.
+						\item Otros.
+					\end{itemize}
+				\end{itemize} } \\ \hline
+				Cuestiones varias & \parbox[l][0.2\textwidth][c]{8cm}{
+					\begin{itemize}
+						\item Salario.
+						\item Disponibilidad.
+						\item Amoldación a jornada.
+				\end{itemize} } \\ \hline
+				Cuestiones & \parbox[l][0.2\textwidth][c]{8cm}{
+									 } \\ \hline
+		\end{tabular}
+		\caption{Ficha para entrevistas a candidatos}
+		\label{tabla:ficha}
+	\end{center}
+\end{table}
+
+\newpage
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{3.5cm}|p{8cm}|p{3.5cm}|}
+			\hline 
+			\multicolumn{3}{|c|}{\textbf{Evaluación}} \\
+			\hline
+			Experiencia laboral & \parbox[l][0.3\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Sin experiencia.
+					\item Inferior a 2 años.
+					\item Entre 2 y 4 años.
+					\item Superior a 4 años.
+			\end{itemize} } & \\ \hline
+			Estudios realizados & \parbox[l][0.4\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Ingeniería informática.
+					\item Otra carrera relacionada.
+					\item Grado superior.
+					\item Grado medio.
+					\item Otros estudios.
+			\end{itemize} } & \\ \hline
+			Referencia personal & \parbox[l][0.3\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Trabajos individuales.
+					\item Trabajos en equipo.
+					\item Aportaciones software libre.
+					\item Etapa en el extranjero.
+			\end{itemize} } & \\ \hline
+			Capacidades & \parbox[l][0.4\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Desarrollo de algoritmos de Deep Learning.
+					\item Conocimiento en el uso de APIs.
+					\item Desarrollo de interfaces.
+					\item Tecnologías de la información.
+					\item Idiomas.
+					\item Otros.
+			\end{itemize} } & \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+\newpage
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|p{3.5cm}|p{8cm}|p{3.5cm}|}
+			\hline 
+			Motivación & \parbox[l][0.6\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item ¿Por qué busca este trabajo?
+					\begin{itemize}
+						\item Necesidad de trabajo.
+						\item Necesidad de experiencia.
+						\item Formación en el área.
+						\item Interés personal.
+						\item Aporte a la sanidad.
+						\item Otras.
+					\end{itemize}
+					\item ¿Perspectivas de futuro?
+					\begin{itemize}
+						\item Mejorar su vida laboral.
+						\item Nuevos proyectos.
+						\item Mejora de rango en la empresa.
+						\item Otros.
+					\end{itemize}
+			\end{itemize} } & \\ \hline
+			Cuestiones varias & \parbox[l][0.2\textwidth][c]{8cm}{
+				\begin{itemize}
+					\item Salario.
+					\item Disponibilidad.
+					\item Amoldación a jornada.
+			\end{itemize} } & \\ \hline
+			Cuestiones & \parbox[l][0.2\textwidth][c]{8cm}{
+			} & \\ \hline
+		\end{tabular}
+		\caption{Evaluación de fichas sobre entrevistas a candidatos.}
+		\label{tabla:evaluación}
+	\end{center}
+\end{table}
 \newpage
 \bibliographystyle{plain}
 \bibliography{biblio}
