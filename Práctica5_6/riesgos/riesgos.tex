@@ -6,7 +6,7 @@
 	\normalfont \normalsize 
 	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
 	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-	\huge Presupuesto Alternativo \\ % The assignment title
+	\huge Lista de Riesgos Identificados \\ % The assignment title
 	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
 
@@ -46,70 +46,36 @@
 	
 	%\listoffigures
 	
-	\listoftables	
+	%\listoftables	
 	
 	\newpage	
  
-\section{Descripción de la situación}
+\begin{enumerate}
+	\item Número de resonancias de entrenamiento insuficientes.
+	\item Resonancias de mala calidad (ruido en la población).
+	\item Alto número de falsos negativos en los resultados.
+	\item Falta de calidad en la entrega final.
+	\item Sobrecarga de los trabajadores.
+	\item Abandono de componentes del equipo.
+	\item Falta de organización.
+	\item Insatisfacción del cliente en las reuniones.
+	\item Interfaz de sanidad anticuada o difícil de tratar.
+	\item Funcionamiento de la interfaz inesperada.
+	\item Error en la priorización de tareas.
+	\item Mala planificación o planteamiento del proyecto.
+	\item Falta de recursos.
+	\item Pérdida de datos inesperada.
+	\item Herramientas de trabajo inoperativas (github, por ejemplo).
+	\item Dificultad de coordinación y comunicación en el equipo.
+	\item retrasos generales acorde a la planificación establecida.
+\end{enumerate}
 
-\begin{itemize}
-	\item Inversión inicial realizada a través de capital de la empresa para cubrir todos los gastos.
-	\item Se reciben dos ingresos, uno a mitad y otro al final del tiempo estimado de desarrollo (4 meses).	
-\end{itemize}
-
- Asumimos un capital inicial de la empresa para sufragar todos los gastos. Consideramos que vamos a recibir una cantidad total en ingresos por parte del cliente equivalente a 40.000\euro, pagados en dos plazos; a mitad y al final del proyecto.  
-
-\section{flujo de caja}
-
-\begin{table}[H]
-	\begin{center}
-		\begin{tabular}{|c||c|c|c|c|c|}
-			\hline
-			Meses & 0 & 1 & 2 & 3 & 4 \\
-			\hline \hline
-			Ingresos & & & 20.000 & & 20.000 \\ \hline
-			Personal (sueldos) &  & -3.400 & -3.400 & -3.400 & -3.400 \\ \hline 
-			Seguridad Social &  & -962,2 & -962,2 & -962,2 & -962,2 \\ \hline
-			IRPF & & -442 & -442 & -442 & -442 \\ \hline
-			Fondo Garantía Salarial & & -6,8 & -6,8 & -6,8 & -6,8 \\ \hline
-			Seguro de desempleo & & -239,27 & -239,27 & -239,27 & -239,27 \\ \hline
-			Formación Profesional & & -23,8 & -23,8 & -23,8 & -23,8 \\ \hline
-			\hline
-			Equipo personal fijo & -328,06 &  &  &  &  \\ \hline
-			Material fungible & -750 &  &  &  &  \\ \hline
-			Desplazamientos y dietas & & -200 & -200 & -200 & -200 \\ \hline
-			Seminario Deep Learning & -2.000 &  &  &  &  \\ \hline
-			Seminario sobre resonancias & -500 &  &  &  &  \\ \hline
-			Varios &  & -100  & -100 & -100 &  \\ \hline
-			\hline
-			\textbf{Ingresos - Gastos} & -3.578,06 & -5.374,07 & 14.625,96 & -5.374,07 & 14.725,93 \\ \hline
-			\textbf{Flujo de caja} & -3.578,06 & -8.952,13 & 5.673,83 & 299,76 & 15.025,69 \\ \hline
-		\end{tabular}
-		\caption{Flujo de caja para presupuesto alternativo.}
-		\label{tabla:sencilla}
-	\end{center}
-\end{table}
-
-Vamos a calcular el VAN, asumiendo un 8\% del interés cada mes, sobre el flujo anterior:
-
-$P/F_0 = P_0 = -3578,06 $ \\
-
-$P/F_2 = P_1 = \frac{5673,83}{(1+0,08)^1} = 5253,54  $ \\
-
-$P/F_4 = P_2 = \frac{15.025,69}{(1+0,08)^2} = 12882,10  $\\
-
-$VAN = P_0 + P_1 + P_2  = 14557,58$\\
-
-Por lo tanto, con estas condiciones, es altamente rentable realizar el proyecto. Consideramos pues que no es necesario solicitar un préstamo y que podemos asumir el proyecto con la capital de la propia empresa.\\
-
-El TIR se puede calcular con una hoja Excel de la forma que aparece en el siguiente \href{https://support.office.com/es-es/article/tir-funci%C3%B3n-tir-64925eaa-9988-495b-b290-3ad0c163c1bc}{Enlace}. \cite{misc:TIR} \\
-	
-Tenemos un 21\%. Por lo que obtendríamos un buen porcenatje de beneficio a partir de nuestra inversión por parte de la empresa.
+Más importantes: 1,2,3,4,6,9,12,14,16,17
 
 
-\newpage
-\bibliographystyle{plain}
-\bibliography{biblio}
+%\newpage
+%\bibliographystyle{plain}
+%\bibliography{biblio}
 
 \end{document}       
 %---------------------------------------------------
