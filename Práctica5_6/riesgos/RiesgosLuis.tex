@@ -1,0 +1,131 @@
+\documentclass[a4paper,12pt,oneside]{article}
+
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{graphicx}
+\usepackage{amssymb, amsmath, amsbsy}
+\usepackage{mathptmx}	
+\usepackage{float}
+\usepackage{booktabs}					%paquete para realización de tablas profesionales
+
+\title{Riesgos Luis}
+\author{Luis Gallego Quero}
+\date{\today}
+
+\begin{document}
+\maketitle			
+ 
+\section*{Interfaz de sanidad anticuada o difícil de tratar.}
+
+\begin{itemize}
+	\item \textbf{Identificador del riesgo: R6}
+	\item \textbf{Descripción(2-3 líneas): } Llegado el momento de implantar nuestro software en el sistema informático del hospital podemos encontrarnos con un software tan precario o anticuado, que la dificultad para instalar nuestros avances sean de gran dificultad.
+	\item \textbf{Probabilidad de ocurrencia: } 30\%
+	\item \textbf{Impacto del riesgo: } Medio.
+	\item \textbf{Monitorización del riesgo: } Realizar un pequeño estudio del software sanitario al comienzo del proyecto. 
+	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Utilizar software que sea fácilmente adaptable y compatible. 
+	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Construcción de API que adapte nuestro software al del hospital.
+	\item \textbf{Recursos necesarios: } Ninguno?
+\end{itemize}
+
+\section*{Mala planificación o planteamiento del proyecto.}
+\begin{itemize}
+	\item \textbf{Identificador del riesgo: R7}
+	\item \textbf{Descripción: } En el transcurso del proyecto puede darse que inicialmente hayamos planteado mal el reparto del tiempo general a los diferentes módulos o hayamos otorgado más importancia a partes que no las tenían.
+	\item \textbf{Probabilidad de ocurrencia: } 40\%
+	\item \textbf{Impacto del riesgo: } Alto.
+	\item \textbf{Monitorización del riesgo: } Controlar el tiempo utilizado para los diferentes módulos y realizar ajustes si estos comienzan a retrasarse.
+	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Dedicar mas tiempo a la planificación inicial dividiendo los módulos en subtareas más concretas, lo que nos permitiría ser más precisos en la estimación.
+	\item \textbf{Plan de contingencia: } Reajustar el proyecto, y en caso extremo, negociar con el cliente una prorroga.
+	\item \textbf{Recursos necesarios: }
+\end{itemize}
+
+\section*{Pérdida de datos inesperada.}
+\begin{itemize}
+	\item \textbf{Identificador del riesgo: R8}
+	\item \textbf{Descripción(2-3 líneas): } Durante el transcurso del proyecto puede ocurrir alguna incidencia en algún gestor utilizado o nuestras máquinas locales y perder parte del desarrollo del proyecto.
+	\item \textbf{Probabilidad de ocurrencia: } 10\%
+	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Monitorización del riesgo: } 
+	\item \textbf{Estrategia de mitigación del riesgo: } Realizar copias de seguridad constantes.
+	\item \textbf{Plan de contingencia: } Desarrollar la parte perdida en el menor tiempo posible????
+	\item \textbf{Recursos necesarios: }
+\end{itemize}
+
+\section*{Dificultad de coordinación y comunicación en el equipo.}
+\begin{itemize}
+	\item \textbf{Identificador del riesgo: R9}
+	\item \textbf{Descripción: } Dificultad para coincidir en las reuniones  o poca comunicación a lo largo del transcurso del desarrollo.
+	\item \textbf{Probabilidad de ocurrencia: } 20\%
+	\item \textbf{Impacto del riesgo: } Bajo
+	\item \textbf{Monitorización del riesgo: } Avisar unos días antes de la reunión planificada.
+	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Ser conscientes de la importancia de una comunicación constante, tanto de los buenos sucesos como los malos a lo largo del proyecto.
+	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Videollamadas.
+	\item \textbf{Recursos necesarios: } Ninguno.
+\end{itemize}
+
+\section*{Retrasos generales acorde a la planificación establecida.}
+\begin{itemize}
+	\item \textbf{Identificador del riesgo: R10}
+	\item \textbf{Descripción(2-3 líneas): } Algunas de las diferentes tareas que componen el proyecto comienzan a retrasarse debido a imprevistos inesperados.
+	\item \textbf{Probabilidad de ocurrencia: } 60\%
+	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Monitorización del riesgo: } Control sobre el tiempo empleado en las diferentes tareas.
+	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Realizar una planificación más exhaustiva de las tareas a implementar.
+	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Reajuste del tiempo respecto a otras tareas que hayan ocupado menos tiempo del estimado.
+	\item \textbf{Recursos necesarios: } Ninguno.
+\end{itemize} 
+
+
+
+
+%%%%%% RECURSOS %%%%%%
+
+% ENÑACE
+ %\href{link}{texto} 
+
+% TABLA
+%\begin{table}[H]
+	%\begin{center}
+		%\begin{tabular}{|c|c|} \toprule
+		%1 & 2 \\ \midrule
+		%2 & 4 \\
+		%5 & 6\\ \bottomrule
+		%\end{tabular}
+	%\end{center}
+%\caption{}
+%\label{nombre_etiqueta}
+%\end{table}
+
+% \textbf{negrita}
+%  \textit{cursiva}
+
+% Insertar imagen
+%\begin{figure}[h]
+	%\centering
+		%\includegraphics[scale=0.1]{./ruta}
+	%\caption{Texto parte inferior}
+	%\label{etiqueta para referencia}
+%\end{figure}
+
+% 		LISTADO DE ITEMS
+%\begin{itemize}
+	%\item 
+%\end{itemize}
+
+% 		BIBLIOGRAFÍA
+%\begin{thebibliography}{X}
+	%\bibitem{nombreItem} \url{enlace} 
+%\end{thebibliography}
+
+%%%%%% FIN RECURSOS %%%%%%
+
+
+\end{document}       
+%---------------------------------------------------
