@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Riesgos identificados}{3}{section.1}
+\contentsline {section}{\numberline {2}Estimaci\IeC {\'o}n del impacto del proyecto}{3}{section.2}
+\contentsline {section}{\numberline {3}Ajuste de estimaciones y conclusi\IeC {\'o}n final}{4}{section.3}

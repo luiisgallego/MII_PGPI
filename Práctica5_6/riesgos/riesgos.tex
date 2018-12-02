@@ -50,7 +50,7 @@
 	
 	\newpage	
  
- \section{Lista de riesgos encontrados}
+ \section*{Lista de riesgos encontrados}
  
 \begin{enumerate}
 	\item Número de resonancias de entrenamiento insuficientes.
@@ -77,8 +77,8 @@
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R1 }
 	\item \textbf{Descripción: } En una técnica de Deep Learning es fundamental tener suficientes muestras del problema para poder entrenar correctamente el modelo, en caso contrario obtendríamos un modelo mediocre e insuficiente para las exigencias propuestas en este proyecto.
-	\item \textbf{Probabilidad de ocurrencia: } 20\%
-	\item \textbf{Impacto del riesgo: } Alta
+	\item \textbf{Probabilidad de ocurrencia: } 10\%
+	\item \textbf{Impacto del riesgo: } Alta.
 	\item \textbf{Monitorización del riesgo: } Hablar con el hospital y asegurarnos de que las muestras proporcionadas son suficientes.  
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Analizar las resonancias recibidas de tal forma que nos aseguremos de que tenemos una distribución buena de las mismas. Es decir, asegurar que tenemos resonancias de todo tipo y de cualquier parte del cuerpo para tener la mayor cantidad de información posible.  
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Comunicarnos lo más pronto posible con el hospital con la finalidad de obtener más resonancias, mitigando el retraso del proyecto lo menor posible. En caso de no tener más, buscar por internet más resonancias que nos sean de utilidad.
@@ -90,8 +90,8 @@
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R2 }
 	\item \textbf{Descripción: } Es importante que las resonancias con las que se van a trabajar sea de calidad. Sería contraproducente tener resonancias borrosas, de insuficiente resolución y número de píxeles incorrecto que pudiera hacer que nuestro modelo no ajustara los parámetros de una forma eficaz. Podría provocar sobreajuste en el modelo, imprecisión en las salidas y peor porcentaje de aciertos.
-	\item \textbf{Probabilidad de ocurrencia: } 60 \%
-	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Probabilidad de ocurrencia: } 30 \%
+	\item \textbf{Impacto del riesgo: } Alto.
 	\item \textbf{Monitorización del riesgo: } Comprobar siempre los resultados obtenidos en los modelos que vayamos desarrollando y entrenando. 
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): }  Analizar y preprocesar las resonancias antes de utilizarlas como conjunto de entrenamiento para nuestro modelo.
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Aplicar preprocesamiento a las resonancias e intentar reducir el conjunto de entrenamiento con aquellas que pueden influir al modelo de una forma negativa. 
@@ -103,8 +103,8 @@
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R3 }
 	\item \textbf{Descripción:} Esto es un riesgo que debemos de evitar a toda costa. No es lo mismo decirle a un paciente que está bien y hacer que se vaya a su casa con una fractura, que decirle que tiene una fractura cuando se está sano. En el primer caso se estaría cometiendo una negligencia médica, mientras que en el segundo el hospital acabaría dandose cuenta en el momento que el experto analizará de forma más detallada al paciente. 
-	\item \textbf{Probabilidad de ocurrencia: } 50 \%
-	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Probabilidad de ocurrencia: } 25 \%
+	\item \textbf{Impacto del riesgo: } Alto.
 	\item \textbf{Monitorización del riesgo: } Comprobar los porcentajes de errores obtenidos, diferenciando entre los falsos positivos y negativos. 
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } En caso de que ocurra un falso negativo, no considerar el proyecto apto como para ser implementado en el hospital.
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Proporcionar un porcenatje de seguridad del resultado obtenido, de tal forma que el propio experto tenga conocimiento de hasta que punto debería de revisar el caso antes de darle la información al paciente. 
@@ -116,8 +116,8 @@
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R4 }
 	\item \textbf{Descripción: } Es posible que nos encontremos con imprevistos en el desarrollo del proyecto. Por ejemplo, que el hospital no se encuentre conforme con el proceso y sea manifestado en las reuniones acordadas. 
-	\item \textbf{Probabilidad de ocurrencia: } 30 \%
-	\item \textbf{Impacto del riesgo: } Medio 
+	\item \textbf{Probabilidad de ocurrencia: } 15 \%
+	\item \textbf{Impacto del riesgo: } Medio. 
 	\item \textbf{Monitorización del riesgo: } Preguntar de forma clara y concisa en las reuniones cada punto de relevancia del proyecto, con la finalidad de saber con total seguridad y claridad que el cliente se encuentra conforme con los resultados obtenidos hasta la fecha.  
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): }  Reuniones más frecuentes con el clientes, ceñirnos a las peticiones del mismo.
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Solucionar los problemas que plantea, reajustando el proyecto o renegociando las condiciones, hasta que el cliente se encuentre conforme.
@@ -130,19 +130,19 @@
 	\item \textbf{Identificador del riesgo: R5 }
 	\item \textbf{Descripción: } Este proyecto está compuesto por poco personal. En caso de que algun trabajador abandonase su puesto, las consecuencias directas al proyecto serían muy graves.
 	\item \textbf{Probabilidad de ocurrencia: } 15 \%
-	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Impacto del riesgo: } Alto.
 	\item \textbf{Monitorización del riesgo: } Comunicación constante entre los integrantes del grupo. Realizando reuniones diarias al comienzo de cada jornada.   
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Preocupación por el bienestar de los empleados, para saber si existe algún tipo de problema y solucionarlo.   
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Realizar entrevistas y encontrar a alguien apto para la sustitución en la mayor brevedad posible.
 	\item \textbf{Recursos necesarios: } Una pequeña cantidad de tiempo diaria para realizar las reuniones. 
 \end{itemize}
 
-\section{Interfaz de sanidad anticuada o difícil de tratar.}
+\section{Interfaz de sanidad anticuada o difícil de tratar}
 
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R6}
 	\item \textbf{Descripción: } Llegado el momento de implantar nuestro software en el sistema informático del hospital podemos encontrarnos con un software tan precario o anticuado, que la dificultad para instalar nuestros avances sean de gran complejidad.
-	\item \textbf{Probabilidad de ocurrencia: } 30\%
+	\item \textbf{Probabilidad de ocurrencia: } 15\%
 	\item \textbf{Impacto del riesgo: } Medio.
 	\item \textbf{Monitorización del riesgo: } Realizar un pequeño estudio del software sanitario al comienzo del proyecto. 
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Utilizar software que sea fácilmente adaptable y compatible. 
@@ -150,48 +150,49 @@
 	\item \textbf{Recursos necesarios: } Tiempo para analizar el sistema del hospital.
 \end{itemize}
 
-\section{Mala planificación o planteamiento del proyecto.}
+\section{Mala planificación o planteamiento del proyecto}
+
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R7}
 	\item \textbf{Descripción: } En el transcurso del proyecto puede darse que inicialmente hayamos planteado mal el reparto del tiempo general a los diferentes módulos o hayamos otorgado más importancia a partes que no las tenían.
-	\item \textbf{Probabilidad de ocurrencia: } 40\%
-	\item \textbf{Impacto del riesgo: } Alto.
+	\item \textbf{Probabilidad de ocurrencia: } 20\%
+	\item \textbf{Impacto del riesgo: } Medio.
 	\item \textbf{Monitorización del riesgo: } Controlar el tiempo utilizado para los diferentes módulos y realizar ajustes si estos comienzan a retrasarse.
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Dedicar más tiempo a la planificación inicial dividiendo los módulos en subtareas más concretas, lo que nos permitiría ser más precisos en la estimación.
 	\item \textbf{Plan de contingencia: } Reajustar el proyecto, y en caso extremo, negociar con el cliente una prórroga.
 	\item \textbf{Recursos necesarios: } Ninguno.
 \end{itemize}
 
-\section{Pérdida de datos inesperada.}
+\section{Pérdida de datos inesperada}
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R8}
 	\item \textbf{Descripción: } Durante el transcurso del proyecto puede ocurrir alguna incidencia en algún gestor utilizado o nuestras máquinas locales y perder parte del desarrollo del proyecto.
-	\item \textbf{Probabilidad de ocurrencia: } 10\%
-	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Probabilidad de ocurrencia: } 5\%
+	\item \textbf{Impacto del riesgo: } Alto.
 	\item \textbf{Monitorización del riesgo: } Comprobar de forma periódica la consistencia y perdidas de los datos con los que se trabaja.
 	\item \textbf{Estrategia de mitigación del riesgo: } Realizar copias de seguridad constantes.
 	\item \textbf{Plan de contingencia: } Restablecer la copia de seguridad y actualizarla en la mayor brevedad posible.
 	\item \textbf{Recursos necesarios: } Mayor cantidad de memoria para almacenar las copias.
 \end{itemize}
 
-\section{Dificultad de coordinación y comunicación en el equipo.}
+\section{Dificultad de coordinación y comunicación en el equipo}
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R9}
 	\item \textbf{Descripción: } Dificultad para coincidir en las reuniones o poca comunicación a lo largo del transcurso del desarrollo.
-	\item \textbf{Probabilidad de ocurrencia: } 20\%
-	\item \textbf{Impacto del riesgo: } Bajo
+	\item \textbf{Probabilidad de ocurrencia: } 10\%
+	\item \textbf{Impacto del riesgo: } Bajo.
 	\item \textbf{Monitorización del riesgo: } Avisar unos días antes de la reunión planificada.
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Ser conscientes de la importancia de una comunicación constante, tanto de los buenos sucesos como los malos a lo largo del proyecto.
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Videollamadas.
 	\item \textbf{Recursos necesarios: } Ninguno.
 \end{itemize}
 
-\section{Retrasos generales acorde a la planificación establecida.}
+\section{Retrasos generales acorde a la planificación establecida}
 \begin{itemize}
 	\item \textbf{Identificador del riesgo: R10}
 	\item \textbf{Descripción: } Algunas de las diferentes tareas que componen el proyecto comienzan a retrasarse debido a imprevistos inesperados.
-	\item \textbf{Probabilidad de ocurrencia: } 60\%
-	\item \textbf{Impacto del riesgo: } Alto
+	\item \textbf{Probabilidad de ocurrencia: } 30\%
+	\item \textbf{Impacto del riesgo: } Alto.
 	\item \textbf{Monitorización del riesgo: } Control sobre el tiempo empleado en las diferentes tareas.
 	\item \textbf{Estrategia de mitigación del riesgo (prevención): } Realizar una planificación más exhaustiva de las tareas a implementar.
 	\item \textbf{Plan de contingencia (actuación en caso de que se materialice): } Reajuste del tiempo respecto a otras tareas que hayan ocupado menos tiempo del estimado.

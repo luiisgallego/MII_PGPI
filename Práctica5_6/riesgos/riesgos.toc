@@ -1,12 +1,11 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Lista de riesgos encontrados}{3}{section.1}
-\contentsline {section}{\numberline {2}N\IeC {\'u}mero de resonancias de entrenamiento insuficientes}{3}{section.2}
-\contentsline {section}{\numberline {3}Resonancias de mala calidad (ruido en la poblaci\IeC {\'o}n)}{4}{section.3}
-\contentsline {section}{\numberline {4}Alto n\IeC {\'u}mero de falsos negativos en los resultados}{4}{section.4}
-\contentsline {section}{\numberline {5}Insatisfacci\IeC {\'o}n del cliente en las reuniones}{5}{section.5}
-\contentsline {section}{\numberline {6}Abandono de componentes del equipo}{6}{section.6}
-\contentsline {section}{\numberline {7}Interfaz de sanidad anticuada o dif\IeC {\'\i }cil de tratar.}{6}{section.7}
-\contentsline {section}{\numberline {8}Mala planificaci\IeC {\'o}n o planteamiento del proyecto.}{7}{section.8}
-\contentsline {section}{\numberline {9}P\IeC {\'e}rdida de datos inesperada.}{7}{section.9}
-\contentsline {section}{\numberline {10}Dificultad de coordinaci\IeC {\'o}n y comunicaci\IeC {\'o}n en el equipo.}{8}{section.10}
-\contentsline {section}{\numberline {11}Retrasos generales acorde a la planificaci\IeC {\'o}n establecida.}{8}{section.11}
+\contentsline {section}{\numberline {1}N\IeC {\'u}mero de resonancias de entrenamiento insuficientes}{3}{section.1}
+\contentsline {section}{\numberline {2}Resonancias de mala calidad (ruido en la poblaci\IeC {\'o}n)}{4}{section.2}
+\contentsline {section}{\numberline {3}Alto n\IeC {\'u}mero de falsos negativos en los resultados}{4}{section.3}
+\contentsline {section}{\numberline {4}Insatisfacci\IeC {\'o}n del cliente en las reuniones}{5}{section.4}
+\contentsline {section}{\numberline {5}Abandono de componentes del equipo}{6}{section.5}
+\contentsline {section}{\numberline {6}Interfaz de sanidad anticuada o dif\IeC {\'\i }cil de tratar}{6}{section.6}
+\contentsline {section}{\numberline {7}Mala planificaci\IeC {\'o}n o planteamiento del proyecto}{7}{section.7}
+\contentsline {section}{\numberline {8}P\IeC {\'e}rdida de datos inesperada}{7}{section.8}
+\contentsline {section}{\numberline {9}Dificultad de coordinaci\IeC {\'o}n y comunicaci\IeC {\'o}n en el equipo}{8}{section.9}
+\contentsline {section}{\numberline {10}Retrasos generales acorde a la planificaci\IeC {\'o}n establecida}{8}{section.10}
