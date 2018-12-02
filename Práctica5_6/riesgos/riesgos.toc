@@ -1,92 +1,12 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Lista de riesgos encontrados}{5}{section.1}
-\contentsline {section}{\numberline {2}Riesgo 1}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Identificador de riesgo}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Descripci\IeC {\'o}n}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Probabilidad de ocurrencia}{6}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Impacto del riesgo}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Monitorizaci\IeC {\'o}n del riesgo}{6}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{6}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Plan de contingencia}{6}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Recursos necesarios}{6}{subsection.2.8}
-\contentsline {section}{\numberline {3}Riesgo 2}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Identificador de riesgo}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Probabilidad de ocurrencia}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Impacto del riesgo}{6}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Monitorizaci\IeC {\'o}n del riesgo}{6}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{6}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Plan de contingencia}{6}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Recursos necesarios}{6}{subsection.3.8}
-\contentsline {section}{\numberline {4}Riesgo 3}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Identificador de riesgo}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Descripci\IeC {\'o}n}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Probabilidad de ocurrencia}{7}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Impacto del riesgo}{7}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Monitorizaci\IeC {\'o}n del riesgo}{7}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{7}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Plan de contingencia}{7}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Recursos necesarios}{7}{subsection.4.8}
-\contentsline {section}{\numberline {5}Riesgo 4}{7}{section.5}
-\contentsline {subsection}{\numberline {5.1}Identificador de riesgo}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Descripci\IeC {\'o}n}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Probabilidad de ocurrencia}{7}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Impacto del riesgo}{7}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Monitorizaci\IeC {\'o}n del riesgo}{7}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{7}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Plan de contingencia}{7}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Recursos necesarios}{7}{subsection.5.8}
-\contentsline {section}{\numberline {6}Riesgo 6}{7}{section.6}
-\contentsline {subsection}{\numberline {6.1}Identificador de riesgo}{8}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Descripci\IeC {\'o}n}{8}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Probabilidad de ocurrencia}{8}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Impacto del riesgo}{8}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Monitorizaci\IeC {\'o}n del riesgo}{8}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{8}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Plan de contingencia}{8}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Recursos necesarios}{8}{subsection.6.8}
-\contentsline {section}{\numberline {7}Riesgo 9}{8}{section.7}
-\contentsline {subsection}{\numberline {7.1}Identificador de riesgo}{8}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Descripci\IeC {\'o}n}{8}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Probabilidad de ocurrencia}{8}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Impacto del riesgo}{8}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Monitorizaci\IeC {\'o}n del riesgo}{8}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{8}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}Plan de contingencia}{8}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}Recursos necesarios}{8}{subsection.7.8}
-\contentsline {section}{\numberline {8}Riesgo 12}{8}{section.8}
-\contentsline {subsection}{\numberline {8.1}Identificador de riesgo}{9}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Descripci\IeC {\'o}n}{9}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Probabilidad de ocurrencia}{9}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Impacto del riesgo}{9}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Monitorizaci\IeC {\'o}n del riesgo}{9}{subsection.8.5}
-\contentsline {subsection}{\numberline {8.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{9}{subsection.8.6}
-\contentsline {subsection}{\numberline {8.7}Plan de contingencia}{9}{subsection.8.7}
-\contentsline {subsection}{\numberline {8.8}Recursos necesarios}{9}{subsection.8.8}
-\contentsline {section}{\numberline {9}Riesgo 14}{9}{section.9}
-\contentsline {subsection}{\numberline {9.1}Identificador de riesgo}{9}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Descripci\IeC {\'o}n}{9}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Probabilidad de ocurrencia}{9}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Impacto del riesgo}{9}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Monitorizaci\IeC {\'o}n del riesgo}{9}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{9}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Plan de contingencia}{9}{subsection.9.7}
-\contentsline {subsection}{\numberline {9.8}Recursos necesarios}{9}{subsection.9.8}
-\contentsline {section}{\numberline {10}Riesgo 16}{9}{section.10}
-\contentsline {subsection}{\numberline {10.1}Identificador de riesgo}{10}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Descripci\IeC {\'o}n}{10}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Probabilidad de ocurrencia}{10}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Impacto del riesgo}{10}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Monitorizaci\IeC {\'o}n del riesgo}{10}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{10}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}Plan de contingencia}{10}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}Recursos necesarios}{10}{subsection.10.8}
-\contentsline {section}{\numberline {11}Riesgo 17}{10}{section.11}
-\contentsline {subsection}{\numberline {11.1}Identificador de riesgo}{10}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Descripci\IeC {\'o}n}{10}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Probabilidad de ocurrencia}{10}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Impacto del riesgo}{10}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Monitorizaci\IeC {\'o}n del riesgo}{10}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Estrategia de mitigaci\IeC {\'o}n del riesgo}{10}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}Plan de contingencia}{10}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}Recursos necesarios}{10}{subsection.11.8}
+\contentsline {section}{\numberline {1}Lista de riesgos encontrados}{3}{section.1}
+\contentsline {section}{\numberline {2}N\IeC {\'u}mero de resonancias de entrenamiento insuficientes}{3}{section.2}
+\contentsline {section}{\numberline {3}Resonancias de mala calidad (ruido en la poblaci\IeC {\'o}n)}{4}{section.3}
+\contentsline {section}{\numberline {4}Alto n\IeC {\'u}mero de falsos negativos en los resultados}{4}{section.4}
+\contentsline {section}{\numberline {5}Insatisfacci\IeC {\'o}n del cliente en las reuniones}{5}{section.5}
+\contentsline {section}{\numberline {6}Abandono de componentes del equipo}{6}{section.6}
+\contentsline {section}{\numberline {7}Interfaz de sanidad anticuada o dif\IeC {\'\i }cil de tratar.}{6}{section.7}
+\contentsline {section}{\numberline {8}Mala planificaci\IeC {\'o}n o planteamiento del proyecto.}{7}{section.8}
+\contentsline {section}{\numberline {9}P\IeC {\'e}rdida de datos inesperada.}{7}{section.9}
+\contentsline {section}{\numberline {10}Dificultad de coordinaci\IeC {\'o}n y comunicaci\IeC {\'o}n en el equipo.}{8}{section.10}
+\contentsline {section}{\numberline {11}Retrasos generales acorde a la planificaci\IeC {\'o}n establecida.}{8}{section.11}
