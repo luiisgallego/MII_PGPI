@@ -218,7 +218,7 @@ En este documento, se realizará un análisis de las herramientas existentes par
 	\item \textbf{Características destacadas}:
 	\begin{enumerate}
 		\item Capacidad de carga y prueba de rendimiento de muchos tipos diferentes de aplicaciones/servidores/protocolos.
-		\item se pueden hacer usos de comandos nativos o scripts de shell.
+		\item Se pueden hacer usos de comandos nativos o scripts de shell.
 		\item JMeter puede generar informes robustos y efectivos y puede ser visualizado con una gran cantidad de herramientas.
 	\end{enumerate}
 	\item \textbf{Limitaciones identificadas}:
@@ -376,7 +376,7 @@ En este documento, se realizará un análisis de las herramientas existentes par
 
 \section{Comparativa de herramientas}
 
-En esta sección se va a realizar una comparativa de herramientas, las cuales serán valoradas del 1 al 5. Destacar un criterio que será común en todas las tablas comparativas; el precio. Inicialmente, el proyecto se buscó que fuese económico y, por tanto, este criterio es especialmente importante.
+En esta sección se va a realizar una comparativa de herramientas, las cuales serán valoradas del 0 al 1, de tal forma que al multiplicar por los pesos siempre salgan valores entre 0 y 1. Destacar un criterio que será común en todas las tablas comparativas; el precio. Inicialmente, el proyecto se buscó que fuese económico y, por tanto, este criterio es especialmente importante.
 
 \subsection{Control de versiones}
 
@@ -386,10 +386,10 @@ En esta sección se va a realizar una comparativa de herramientas, las cuales se
 			\hline
 			Criterio & Peso & Git & Bazaar & Mercurial \\
 			\hline \hline
-			Precio & 0.4 &  &  &  \\ \hline
-			Robustez & 0.3 &  &  &  \\ \hline
-			Estabilidad 0.3 &  &  &  &  \\ \hline
-			\textbf{Total} & \textbf{1} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+			Precio & 0.4 & 1 & 1 & 1 \\ \hline
+			Robustez & 0.3 & 0.6 & 0.45 & 0.6 \\ \hline
+			Estabilidad & 0.3 & 0.7 & 0.5 & 0.7 \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{0.79} & \textbf{0.685} & \textbf{0.79} \\ \hline
 		\end{tabular}
 		\caption{Tabla comparativa de herramientas de control de versiones.}
 		\label{tabla:tabla1}
@@ -404,10 +404,10 @@ En esta sección se va a realizar una comparativa de herramientas, las cuales se
 			\hline
 			Criterio & Peso & Eclipse & NetBeans & Android Studio \\
 			\hline \hline
-			Precio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+			Precio & 0.4 & 1 & 0.7 & 1 \\ \hline
+			Rapidez & 0.3 & 0.25 & 0.25 & 0.8 \\ \hline
+			Uso de recursos & 0.3 & 0.6 & 0.5 & 0.2 \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{0.655} & \textbf{0.505} & \textbf{0.7} \\ \hline
 		\end{tabular}
 		\caption{Tabla comparativa de herramientas de compilación.}
 		\label{tabla:tabla2}
@@ -422,10 +422,10 @@ En esta sección se va a realizar una comparativa de herramientas, las cuales se
 			\hline
 			Criterio & Peso & Selenium & Apache JMeter & JUnit \\
 			\hline \hline
-			Precio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+			Precio & 0.4 & 1 & 1 & 1 \\ \hline
+			Integración & 0.35 & 0.4 & 0.7 & 0.8 \\ \hline
+			Velocidad & 0.25 & 0.6 & 0.3 & 0.7 \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{0.69} & \textbf{0.72} & \textbf{0.855} \\ \hline
 		\end{tabular}
 		\caption{Tabla comparativa de herramientas de automatización de pruebas.}
 		\label{tabla:tabla3}
@@ -441,10 +441,10 @@ En esta sección se va a realizar una comparativa de herramientas, las cuales se
 			\hline
 			Criterio & Peso & Travis IC & Bamboo & Jira \\
 			\hline \hline
-			Precio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+			Precio & 0.4 & 0.5 & 0.6 & 0.5 \\ \hline
+			Velocidad & 0.5 & 0.3 & 0.75 & 0.45 \\ \hline
+			Usabilidad & 0.1 & 0.9 & 0.2 & 0.1 \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{0.44} & \textbf{0.635} & \textbf{0.435} \\ \hline
 		\end{tabular}
 		\caption{Tabla comparativa de herramientas de integración continua.}
 		\label{tabla:tabla4}
@@ -460,10 +460,10 @@ En esta sección se va a realizar una comparativa de herramientas, las cuales se
 			\hline
 			Criterio & Peso & Sentry & GitLab & Mantis Bug Tracker \\
 			\hline \hline
-			Precio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			Criterio &  &  &  &  \\ \hline
-			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+			Precio & 0.4 & 1 & 1 & 1 \\ \hline
+			Comunidad y soporte & 0.2 & 0.85 & 0.8 & 0.4 \\ \hline
+			Funcionalidad & 0.4 & 0.15 & 0.5 & 0.3 \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{0.63} & \textbf{0.76} & \textbf{0.6} \\ \hline
 		\end{tabular}
 		\caption{Tabla comparativa de herramientas de seguimiento de errores/defectos.}
 		\label{tabla:tabla5}
