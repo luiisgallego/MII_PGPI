@@ -6,7 +6,7 @@
 	\normalfont \normalsize 
 	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
 	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-	\huge TITULO???l \\ % The assignment title
+	\huge Análisis de herramientas \\ % The assignment title
 	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
 
@@ -59,7 +59,417 @@
 	
 	\newpage	
  
-\section{-}
+\section{Introducción}
+
+En este documento, se realizará un análisis de las herramientas existentes para facilitar distintos aspectos de la gestión de cambios de un proyecto de desarrollo de software. 
+
+\section{Control de versiones}
+
+\subsection{Git}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Git
+	\item \textbf{URL}: \url{https://git-scm.com/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+		\begin{enumerate}
+			\item Escrito en una combinación de Perl, C y varios scripts de shell.
+			\item Descentralización, rápido, flexible y robusto.
+			\item Sencillo de aprender a utilizar.
+		\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+		\begin{enumerate}
+			\item Gran número de archivos.
+			\item Archivos de gran tamaño.
+			\item Paquetes enormes.
+		\end{enumerate}
+\end{itemize}
+
+\subsection{Bazaar}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Bazaar
+	\item \textbf{URL}: \url{http://bazaar.canonical.com/en/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Software Libre y Opensource.
+		\item Desarrollado en Python.
+		\item Versiones empaquetadas para la mayoría de distribuciones GNU/Linux, Mac OS X y MS Windows.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}: Tiene algunos bugs como
+	\begin{enumerate}
+		\item No se puede mezclar una rama vacía.
+		\item Bazaar debería tener una caché para versiones descargables.
+		\item Problema con codificación ASCII.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Mercurial}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Mercurial
+	\item \textbf{URL}: \url{https://www.mercurial-scm.org/}
+	\item \textbf{Coste}: Gratuito
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Curva de aprendizaje más rápida que git.
+		\item Gestión distribuida.
+		\item Al hacer un cambio, se almacenan dichos cambios (no el fichero al completo).
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Gran dependencia de Atlassian.
+		\item Comunidad menos amplia que git.
+		\item Al añadir extensiones, combinar características y funcionalidad es más difícil. 
+	\end{enumerate}
+\end{itemize}
+
+\section{Compilación}
+
+\subsection{Eclipse}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Eclipse
+	\item \textbf{URL}: \url{https://www.eclipse.org/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Permite gestionar proyectos.
+		\item Incluye depurador de código.
+		\item Extensa colección de plugins.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Algunos plugins son difíciles de configurar, incluso se encuentran anticuados.
+		\item Demasiadas versiones diferentes que pueden resultar confusas.
+		\item Cantidad de recursos consumidos excesivos.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{NetBeans}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: NetBeans
+	\item \textbf{URL}: \url{https://netbeans.org/} 
+	\item \textbf{Coste}: Gratuito
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Lenguaje multiplataforma.
+		\item Permite desarrollar aplicaciones web dinámicas.
+		\item Manejo automático de la memoria.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Lentitud a la hora de ejecutar aplicaciones.
+		\item Requiere un intérprete.
+		\item Algunas herramientas tienen un costo adicional.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Android Studio}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Android Studio
+	\item \textbf{URL}: \url{https://developer.android.com/studio/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}: 
+	\begin{enumerate}
+		\item Se puede programar para diferentes versiones de Android.
+		\item Compilación rápida.
+		\item Ejecución del app en tiempo real gracias al emulador.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Entorno algo inestable.
+		\item Los requisitos son un poco elevados para el equipo que lo utiliza.
+		\item Gasta batería en consecuencia.
+	\end{enumerate}
+\end{itemize}
+
+\section{Automatización de pruebas}
+
+\subsection{Selenium}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Selenium
+	\item \textbf{URL}: \url{https://www.seleniumhq.org/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Viene con una serie de herramientas ya integradas.
+		\item Ofrece distintas soluciones para atender distintos requisitos.
+		\item Uso extensible por medio de plugins.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Solo se puede utilizar para probar aplicaciones de escritorio o otro tipo de software, solo web. 
+		\item No hay soporte garantizado disponible para Selenium, hay que apoyarse en la comunidad.
+		\item No es posible realizar pruebas en imágenes.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Apache JMeter}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Apache JMeter
+	\item \textbf{URL}: \url{https://jmeter.apache.org/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Capacidad de carga y prueba de rendimiento de muchos tipos diferentes de aplicaciones/servidores/protocolos.
+		\item se pueden hacer usos de comandos nativos o scripts de shell.
+		\item JMeter puede generar informes robustos y efectivos y puede ser visualizado con una gran cantidad de herramientas.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item JMeter aún no tiene complemento de autocorrelación.
+		\item Todas las instancias de JMeter deben cerrarse mientras se ejecuta una prueba de carga.
+		\item En ocasiones, si al copiar un elemento utilizamos versiones de JMeter distintas, se producirán errores.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{JUnit}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: JUnit
+	\item \textbf{URL}: \url{https://junit.org/junit5/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Integración con Android Studio.
+		\item Gran cantidad de documentación.
+		\item Soportado en gran cantidad de IDEs.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Exclusivo para Java.
+		\item Exclusivo para test unitarios.
+		\item Encontramos limitaciones en su funcionalidad.
+	\end{enumerate}
+\end{itemize}
+
+\section{Integración continua}
+
+\subsection{Travis IC}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Travis IC
+	\item \textbf{URL}: \url{https://travis-ci.org/}
+	\item \textbf{Coste}: Gratuito para repositorios git públicos. Para empresas, tenemos precios desde 69\$ el más básico hasta 489\$ por mes.	
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Facilidad de integración con repositorios git.
+		\item Fácil de utilizar.
+		\item Se puede vincular a correo electrónico para ver los resultados.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Precio elevado.
+		\item La velocidad no es muy grande.
+		\item Versión gratuita exclusiva a repositorios públicos.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Bamboo}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Bamboo
+	\item \textbf{URL}: \url{https://es.atlassian.com/software/bamboo}
+	\item \textbf{Coste}: Tiene prueba gratuita de 30 días con número de usuarios ilimitados. Después son 10\$ al año hasta 10 trabajos o 1100\$ con trabajos ilimitados.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Disponible para cualquier lenguaje.
+		\item Puede ejecutar múltiples construcciones en paralelo.
+		\item Proporciona una API REST, esta proporciona información sobre el servidor, el estado actual de sus compilaciones, etc.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Márgenes de precios demasiado extremos, no podemos ajustar precio a necesidades concretas.
+		\item Si hacemos uso de Perforce, no se podrán ejecutar compilaciones en varios agentes remotos.
+		\item Complejo de usar.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Jira}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Jira
+	\item \textbf{URL}: \url{https://es.atlassian.com/software/jira}
+	\item \textbf{Coste}: Prueba gratuita durante 10 días. Después son 10\$ al mes hasta 10 usuarios o 7\$ al mes por cada usuario cuando son entre 11 y 100. 
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item La asignación es granular.
+		\item Encontramos dos niveles de issues (tareas): issues y sub-issues.
+		\item Posee una gran cantidad de herramientas en torno a él.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Difícil de instalar.
+		\item Difícil de usar.
+		\item Excesivas características.
+	\end{enumerate}
+\end{itemize}
+
+\section{Seguimiento de errores/defectos}	 
+
+\subsection{Sentry}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Sentry
+	\item \textbf{URL}: \url{https://sentry.io/welcome/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Impacto de despliegues en tiempo real.
+		\item Nos proporciona ayuda en ciertos momentos.
+		\item Fácil integración externa.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Documentación incompleta.
+		\item Problemas de seguridad.
+		\item Requiere una dependencia binario para poder operar.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{GitLab}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: GitLab
+	\item \textbf{URL}: \url{https://about.gitlab.com/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Buena curva de aprendizaje.
+		\item Amplia comunidad.
+		\item Robusto y flexible.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Almacenamiento del repositorio limitado a 10GB.
+		\item Interfaz relativamente lenta.
+		\item Frecuentes problemas técnicos con los repositorios.
+	\end{enumerate}
+\end{itemize}
+
+\subsection{Mantis Bug Tracker}
+
+\begin{itemize}
+	\item \textbf{Nombre de la herramienta}: Mantis Bug Tracker.
+	\item \textbf{URL}: \url{https://www.mantisbt.org/}
+	\item \textbf{Coste}: Gratuito.
+	\item \textbf{Características destacadas}:
+	\begin{enumerate}
+		\item Se permite configurar la transición de estados.
+		\item Se puede especificar un número indeterminado de estados.
+		\item Permite introducir diferentes perfiles.
+	\end{enumerate}
+	\item \textbf{Limitaciones identificadas}:
+	\begin{enumerate}
+		\item Falta de documentación.
+		\item Interfaz anticuada.
+		\item Menos funcionalidad que otras herramientas.
+	\end{enumerate}
+\end{itemize}
+
+
+\section{Comparativa de herramientas}
+
+En esta sección se va a realizar una comparativa de herramientas, las cuales serán valoradas del 1 al 5. Destacar un criterio que será común en todas las tablas comparativas; el precio. Inicialmente, el proyecto se buscó que fuese económico y, por tanto, este criterio es especialmente importante.
+
+\subsection{Control de versiones}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|}
+			\hline
+			Criterio & Peso & Git & Bazaar & Mercurial \\
+			\hline \hline
+			Precio & 0.4 &  &  &  \\ \hline
+			Robustez & 0.3 &  &  &  \\ \hline
+			Estabilidad 0.3 &  &  &  &  \\ \hline
+			\textbf{Total} & \textbf{1} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+		\end{tabular}
+		\caption{Tabla comparativa de herramientas de control de versiones.}
+		\label{tabla:tabla1}
+	\end{center}
+\end{table}
+
+\subsection{Compilación}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|}
+			\hline
+			Criterio & Peso & Eclipse & NetBeans & Android Studio \\
+			\hline \hline
+			Precio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+		\end{tabular}
+		\caption{Tabla comparativa de herramientas de compilación.}
+		\label{tabla:tabla2}
+	\end{center}
+\end{table}
+
+\subsection{Automatización de pruebas}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|}
+			\hline
+			Criterio & Peso & Selenium & Apache JMeter & JUnit \\
+			\hline \hline
+			Precio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+		\end{tabular}
+		\caption{Tabla comparativa de herramientas de automatización de pruebas.}
+		\label{tabla:tabla3}
+	\end{center}
+\end{table}
+
+
+\subsection{Integración continua}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|}
+			\hline
+			Criterio & Peso & Travis IC & Bamboo & Jira \\
+			\hline \hline
+			Precio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+		\end{tabular}
+		\caption{Tabla comparativa de herramientas de integración continua.}
+		\label{tabla:tabla4}
+	\end{center}
+\end{table}
+
+
+\subsection{Seguimiento de errores/defectos}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c||c|c|c|c|}
+			\hline
+			Criterio & Peso & Sentry & GitLab & Mantis Bug Tracker \\
+			\hline \hline
+			Precio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			Criterio &  &  &  &  \\ \hline
+			\textbf{Total} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\ \hline
+		\end{tabular}
+		\caption{Tabla comparativa de herramientas de seguimiento de errores/defectos.}
+		\label{tabla:tabla5}
+	\end{center}
+\end{table}
+
 
 
 
