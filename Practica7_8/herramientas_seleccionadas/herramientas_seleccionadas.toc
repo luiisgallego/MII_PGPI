@@ -1,0 +1,6 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Control de versiones}{3}{section.1}
+\contentsline {section}{\numberline {2}Compilaci\IeC {\'o}n}{3}{section.2}
+\contentsline {section}{\numberline {3}Automatizaci\IeC {\'o}n de pruebas}{3}{section.3}
+\contentsline {section}{\numberline {4}Integraci\IeC {\'o}n continua}{3}{section.4}
+\contentsline {section}{\numberline {5}Seguimiento de errores/defectos}{3}{section.5}
