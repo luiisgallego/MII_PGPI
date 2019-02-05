@@ -1,0 +1,174 @@
+\input{preambuloSimple.tex}
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{\textbf{Planificación y Gestión de Proyectos Informáticos (2018-2019)} \\ Máster Profesional de Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge Práctica A-I \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Alejandro Campoy Nieves \\ Luis Gallego Quero} % Nombre y apellidos y correo
+\date{\normalsize\today} % Incluye la fecha actual
+
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{hyperref} % Para añadir los hiperenlaces.
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\usepackage{graphicx}
+\usepackage{amssymb, amsmath, amsbsy}
+\usepackage{mathptmx}	
+\usepackage{float}
+\usepackage{booktabs}					%paquete para realización de tablas profesionales
+\usepackage{eurosym}
+%\usepackage[table]{xcolor}
+%\definecolor{lightgray}{gray}{0.9}
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle % Muestra el Título
+	
+	\newpage %inserta un salto de página
+	
+	\tableofcontents % para generar el índice de contenidos
+	
+	\listoffigures
+	
+	\listoftables	
+	
+	\newpage	
+ 
+\section{Lista de comprobación de objetivos de negocio}
+
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|l|}
+			\hline 
+			 & Tareas  \\ 
+			\hline \hline
+			 & Me he informado de la industria del cliente y a la competencia.  \\ \hline
+			 & Entiendo la estructura corporativa del cliente  \\ \hline
+			 & He hecho una lista de los objetivos de negocio del cliente, empezando por el objetivo general del negocio que explica el propósito principal del proyecto de diseño de red.  \\ \hline
+			 & El cliente ha identificado las operaciones críticas. \\ \hline
+			 & Entiendo el criterio de éxito del cliente, y las consecuencias de los
+			 fallos.  \\ \hline
+			 & Entiendo el alcance del diseño del proyecto.  \\ \hline
+			 & He identificado las aplicaciones de red del cliente.  \\ \hline
+			 & El cliente ha explicado sus políticas de fabricantes, protocolos o
+			 plataformas aceptadas.  \\ \hline
+			 & El cliente ha explicado sus políticas sobre soluciones abiertas frente a
+			 soluciones propietarias.  \\ \hline
+			 & El cliente ha explicado sus políticas sobre autoridad distribuida para el
+			 diseño de la red y la implementación.  \\ \hline
+			 & Sé cuál es el presupuesto del proyecto.  \\ \hline
+			 & Conozco el calendario del proyecto, incluidos la fecha de entrega final
+			 y los hitos principales, y creo que es alcanzable.  \\ \hline
+			 & Sé qué conocimiento técnico tienen mis clientes y el personal
+			 relacionado con el proyecto.  \\ \hline
+			 & He discutido sobre el plan de formación del personal con el cliente  \\ \hline
+			 & Soy consciente de las políticas de oficina que puedan afectar al diseño
+			 de la red.  \\ \hline
+		\end{tabular}
+		\caption{Lista de comprobación de objetivos de negocio.}
+		\label{tabla:tabla1}
+	\end{center}
+\end{table}
+
+\section{Lista de objetivos de negocio}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|l|l|l|}
+			\hline 
+			Objetivo de negocio & Situación actual & Comentarios \\ 
+			\hline \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline		
+		\end{tabular}
+		\caption{Lista de objetivos de negocio}
+		\label{tabla:tabla3}
+	\end{center}
+\end{table}
+
+\section{Lista de comprobación del análisis de objetivos técnicos de la red}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|l|}
+			\hline 
+			& Tareas  \\ 
+			\hline \hline
+			& He documentado los planes del cliente para expandir durante los
+			próximos dos años el número de localizaciones, usuarios y servidores.  \\ \hline
+			& El cliente me ha contado los planes de migración de servidores
+			departamentales a un centro de datos centralizado.  \\ \hline
+			& El cliente me ha contado los planes sobre integrar los datos
+			almacenados en mainframes antiguos dentro de la red de la empresa.  \\ \hline
+			& El cliente me ha contado los planes sobre implementar una extranet
+			para comunicarse con socios u otrs compañías.  \\ \hline
+			& He documentado el objetivo de disponibilidad de la red en tiempo de y/
+			o MTBF y MTTR.  \\ \hline
+			& He documentado los objetivos de utilización máxima media de la red.  \\ \hline
+			& He documentado los objetivos de tasa de transferencia de la red.  \\ \hline
+			& He documentado los objetivos de tasa de paquetes por segundo en los
+			dispositivos de interconexión de red.  \\ \hline
+			& He documentado los objetivos de precisión y tasa de error aceptable.  \\ \hline
+			& He discutido con el cliente la importancia de usar tramas grandes para
+			maximizar la eficiencia.  \\ \hline
+			& He discutido con el cliente las decisiones de compromiso asociados
+			con tamaños de trama grandes, y el retardo de serialización.  \\ \hline
+			& He identificado las aplicaciones que requieren un tiempo de respuesta
+			más restrictivo que el estándar o inferiores a 100ms.  \\ \hline
+			& He discutido con el cliente los riesgos de seguridad y los requisitos.  \\ \hline
+			& He obtenido los requisitos de gestión de la red, incluyendo las metas de
+			rendimiento, fallo, configuración seguridad y gestión de contabilidad.  \\ \hline
+			& He actualizado el diagrama de aplicaciones de red para incluir los objetivos técnicos de las aplicaciones.  \\ \hline
+			& Junto al cliente, he desarrollado una lista de objetivos de la red,
+			incluyendo tanto objetivos técnicos como de negocio. La lista
+			comienza con un objetivo general e incluye el resto de las metas en
+			orden de prioridad. Se han marcado las metas críticas.  \\ \hline
+		\end{tabular}
+		\caption{Lista de comprobación del análisis de objetivos técnicos de la red.}
+		\label{tabla:tabla2}
+	\end{center}
+\end{table}
+
+\section{Lista de objetivos técnicos de la red}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|l|l|l|}
+			\hline 
+			Objetivo técnico & Importancia & Comentarios \\ 
+			\hline \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline
+			& & \\ \hline		
+		\end{tabular}
+		\caption{Lista de objetivos técnicos de la red.}
+		\label{tabla:tabla4}
+	\end{center}
+\end{table}
+
+%\newpage
+%\bibliographystyle{plain}
+%\bibliography{biblio}
+
+\end{document}       
+%---------------------------------------------------
