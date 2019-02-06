@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Tabla de Restricciones de negocio}{3}{section.1}
+\contentsline {section}{\numberline {1}Restricciones de negocio}{3}{section.1}
 \contentsline {section}{\numberline {2}Restricciones t\IeC {\'e}cnicas}{3}{section.2}
 \contentsline {section}{\numberline {3}Caracter\IeC {\'\i }sticas b\IeC {\'a}sicas de las aplicaciones de la red}{3}{section.3}
 \contentsline {section}{\numberline {4}Requisitos t\IeC {\'e}cnicos de las aplicaciones}{4}{section.4}
