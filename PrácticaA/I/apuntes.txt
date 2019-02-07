@@ -19,8 +19,12 @@ Directora:
 
 	Es un servicio puntero para realizar biopsias de forma digital. Es un servicio totalmente necesario.
 
-	*¿Qué es el Qupath?	
+	*¿Qué es el Qupath?
+	
+	Herramient	
 
 	*Tanto el laboratorio como la cobertura con importantes. Hay que buscar conectar los laboratorios y dar cobertura, al menos, a una de las plantas.
 
 	* Hay que tener cobertura en las plantas 4,6 y 7. Aunque se quiere tener en todo el hospital en el futuro al parecer.
+
+	OBJETIVO GENERAL: Aplicación móvil de guía y visitas
